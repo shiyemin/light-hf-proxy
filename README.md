@@ -33,6 +33,13 @@ generate_ids = model.generate(tokenizer(prompt, return_tensors='pt').input_ids.c
 
 Just import light_hf_proxy and no more steps needed.
 
+## Speedup your own models
+
+Currently, we only provide proxy for our models. If you find it useful, you can setup your own relay server. We are not going to provide any tutorial or information about how to setup relay server. If you have a relay server, you can use this library as following:
+```bash
+RELAY_SERVER=https://your.relay.server python script.py
+```
+
 
 # 项目声明
 
