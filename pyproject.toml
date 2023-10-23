@@ -1,16 +1,20 @@
 [project]
 name = "light_hf_proxy_shiyemin"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
   { name="Yemin Shi", email="shiyemin2@gmail.com" },
 ]
 description = "A light proxy solution for HuggingFace hub."
 readme = "README.md"
 requires-python = ">=3.7"
+license = {file = "LICENSE"}
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: Apache Software License",
     "Operating System :: OS Independent",
+]
+dependencies = [
+    "huggingface_hub"
 ]
 
 [project.urls]
