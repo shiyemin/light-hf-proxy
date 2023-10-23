@@ -1,0 +1,18 @@
+[project]
+name = "light_hf_proxy_shiyemin"
+version = "0.0.1"
+authors = [
+  { name="Yemin Shi", email="shiyemin2@gmail.com" },
+]
+description = "A light proxy solution for HuggingFace hub."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/shiyemin/light-hf-proxy"
+"Bug Tracker" = "https://github.com/shiyemin/light-hf-proxy/issues"
