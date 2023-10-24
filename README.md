@@ -33,11 +33,24 @@ generate_ids = model.generate(tokenizer(prompt, return_tensors='pt').input_ids.c
 
 Just import light_hf_proxy and no more steps needed.
 
-## Speedup your own models
+We only provide relay service for the following repos so as to support our own research:
+- [LinkSoul.AI](https://huggingface.co/LinkSoul)
+- [BAAI](https://huggingface.co/BAAI)
+- [OpenAI](https://huggingface.co/openai)
+Any other repos will fallback to [https://hf-mirror.com/](https://hf-mirror.com/), which is a mirror server maintained by [padeoe](https://gist.github.com/padeoe).
 
-Currently, we only provide proxy for our models. If you find it useful, you can setup your own relay server. We are not going to provide any tutorial or information about how to setup relay server. If you have a relay server, you can use this library as following:
+## Use private relay server or mirror
+
+You can setup your own relay server or mirror to speedup model downloading. Though, we are not going to provide any tutorial or information about how to setup relay server or mirror.
+
+To use private relay server, you can use this library as following:
 ```bash
 RELAY_SERVER=https://your.relay.server python script.py
+```
+
+To use private mirror, you can use this library as following:
+```bash
+HF_MIRROR_URL=https://your.mirror.server python script.py
 ```
 
 
