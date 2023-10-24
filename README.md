@@ -37,6 +37,7 @@ We only provide relay service for the following repos so as to support our own r
 - [LinkSoul.AI](https://huggingface.co/LinkSoul)
 - [BAAI](https://huggingface.co/BAAI)
 - [OpenAI](https://huggingface.co/openai)
+
 Any other repos will fallback to [https://hf-mirror.com/](https://hf-mirror.com/), which is a mirror server maintained by [padeoe](https://gist.github.com/padeoe).
 
 ## Use private relay server or mirror
