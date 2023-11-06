@@ -1,5 +1,5 @@
 # light-hf-proxy
-A light proxy solution for HuggingFace hub.
+A light proxy solution for HuggingFace hub. It is supposed to work with diffusers, transformers and datasets from HuggingFace.
 
 # Install / 安装
 
