@@ -1,6 +1,6 @@
 [project]
 name = "light-hf-proxy"
-version = "0.0.3"
+version = "0.0.4"
 authors = [
   { name="Yemin Shi", email="shiyemin2@gmail.com" },
 ]
